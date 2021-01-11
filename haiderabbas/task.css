@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    /* 1st section */
+.container{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    margin-left: 91px;
+    padding: 1%;
+}
+.icn-1 i{
+    padding: 7px;
+    color: rgb(199, 81, 81);
+}
+span{
+    color: cornsilk;
+}
+.top-header{
+    background-image: url(./images/hotroom3.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main-bar{
+    display: grid;
+    grid-template-columns: 47% 50%;
+    background-color: white;
+    width: 86%;
+    margin-left: 86px;
+}
+.bar-1 h2{
+    padding-left: 88px;
+    margin-top: -51px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.bar-1 i{
+    padding: 12px;
+    font-size: 43px;
+    padding-left: 38px;
+}
+.unorder-list{
+    display: grid;
+    grid-template-columns: 16% 16% 20% 16% 16% 16%;
+}
+.rosa-2{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.rosa-2 h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 31px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+.rosa-2 p{
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+.page{
+    width: 10%;
+    text-decoration: none;
+}
+.page li{
+    list-style-type: none;
+    text-transform: capitalize;
+    color: rgb(163, 140, 140);
+    font-family: serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+/* second section */
+.container-1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 5%;
+    padding: 4%;
+    background-color: red;
+}
+.second-sec{
+    width: 100%;
+    height: 100%;
+    
+}
+.second-sec input{
+    padding: 7%;
+    border-radius: 5%;
+    background-color: red;
+    margin-left: 42px;
+    width: 64%;
+
+}
+::placeholder{
+    color: white;
+}
+.second-sec select{
+    margin-left: -40px;
+    background-color: red;
+    border: none;
+}
+.second-sec i{
+    margin: -190px -39px;
+    font-size: 27px;
+    padding: -16px;
+    padding-top: 40px;
+}
+/*3rd section */
+.container-2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #fff;
+    
+}
+.holiday{
+    width: 50%;
+    padding: 50px 170px;
+}
+.holiday i{
+    font-size: 61px;
+    padding-top: 37px;
+    padding-left: 68px;
+}
+.holiday p{
+    padding-top: 28px;
+    letter-spacing: 1px;
+    font-family: serif;
+    font-weight: 100;
+}
+.holiday h2{
+    font-family: -webkit-pictograph;
+    font-weight: 600;
+    font-weight: 600;
+    width: 222px;
+}
+.holiday-1{
+    height: 159px;
+    background-color: red;
+    width: 3px;
+    margin-left: 122%;
+    margin-top: -61%;
+}
+/* 4th section */
+.container-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(37, 35, 35);
+    padding-bottom: 50px;
+}
+.child{
+    display: flex;
+    width: 417px;
+    height: 48%;
+    margin-left: 40px;
+}
+.child img{
+    /* width: 28%; */
+    height: 170px;
+    margin: 0px;
+    margin-left: 0px;
+}
+.img-div{
+    padding: 55px;
+}
+.room{
+    padding: 31px;
+    text-align: center;
+    margin-left: -238px;
+}
+.room h2{
+    color: white;
+    text-transform: capitalize;
+}
+.room i{
+    color: whitesmoke;
+    font-size: 58px;
+
+}
+.room p{
+    color: rgb(250, 245, 239);
+    text-transform: capitalize;
+}
+.room h4{
+    color: rgb(231, 64, 64);
+    text-transform: capitalize;
+    font-size: 21px;
+}
+ button{
+    font-size: 12px;
+    padding: 17px 24px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    background-color: rgb(231, 64, 64);
+    color: rgb(250, 245, 239);
+    letter-spacing: 1px;
+}
+    /* 5th section */
+.container-4{
+    display: grid;
+    grid-template-columns: 48% 50%;
+    text-align: center;
+    background-color: #fff;
+}
+.menu img{
+    width: 119px;
+    height: 205px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 15% 33% 24% 15%;
+}
+.dinner h2{
+    padding-top: 90px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.dinner i{
+    font-size: 53px;
+}
+.dinner p{
+    font-family: cursive;
+    margin-top: 57px;
+}
+.menu-2{
+    display: grid;
+    grid-template-columns: 112% 109% 136% 108% 15%;
+}
+.manu{
+    display: grid;
+    grid-template-columns: 14% 30% 24% 15%;
+}
+.set-2 img{
+    width: 100px;
+    height: 205px;
+    margin-left: -22px;
+}
+   /* 6th section */
+   .container-5{
+       display: grid;
+       grid-template-columns: 50% 50%;
+   }
+   .finess{
+    background-color: red;
+    text-align: center;
+    padding: 79px;
+    padding-top: 41px;
+   }
+   .finess h2{
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 300;
+    word-spacing: 3px;
+   }
+   .finess i{
+    font-size: 50px;
+    color: wheat;
+    padding-top: 9px;
+    padding-bottom: 26px;
+}
+.finess p{
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 17px;
+}
+   .two-img{
+       display: grid;
+       grid-template-columns: 50% 50%;
+       background-color: rgb(37, 35, 35);
+   }
+   .part-1 img{
+    width: 85%;
+    height: 189px;
+    margin-top: 115px;
+   }
+   /* 7th section */
+   .sec-8{
+       background-color: white;
+   }
+  .container-6{
+    text-align: center;
+    padding: 6%;
+  }
+  .container-6 .quote{
+      font-size: 30px;
+      background-color: #ccc;
+      color: white;
+      padding: 20px;
+      border-radius: 50%;
+  }
+  .star{
+      font-size: 15px;
+  }
+  .container-6 h2{
+    color: red;
+    /* font-size: 50px; */
+  }
+  .container-6 h3{
+    color: red;
+    font-family: sans-serif;
+  }
+  .container-6 img{
+      width: 7%;
+  }
+  .container-6 h4{
+    text-transform: capitalize;
+    color: rgba(17, 16, 16, 0.308);
+  }
+  .container-6 p{
+    color: rgba(24, 20, 20, 0.308);
+  }
+  /* 8th section */
+  .container-7{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      background-color: black;
+      padding: 8%;
+  }
+  .btn-1{
+      color: white;
+  }
+  .btn-1 h2{
+    text-transform: uppercase;
+    color: rgb(231, 64, 64);
+  }
+  .btn-1 p{
+    word-spacing: 2px;
+    font-family: sans-serif;
+  }
+  /* last section */
+  .container-8{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      background-color: red;
+      padding: 5%;
+      color: white;
+  }
+  .touch p{
+    float: right;
+    margin-right: 47px;
+  }
+  img{
+    width: 28%;
+    height: 72px;
+    margin: 9px;
+    margin-left: 0px;
+  }
+  .touch i{
+      margin: 7px;
+  }
+  .touch input{
+    padding: 12px;
+    background-color: red;
+  }
+  .touch h3{
+    margin-left: 75px;
+    margin-top: 98px;
+    font-size: 44px;
+    text-transform: uppercase;
+  }
+  .touch h2{
+      text-transform: capitalize;
+  }
+  .input i{
+    font-size: 51px;
+    position: absolute;
+    margin-top: -92px;
+  }
+
+  
