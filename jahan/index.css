@@ -44,7 +44,7 @@ body{
 
 .btn-primary:hover{
     color: rgb(255, 255, 255);
-    background-color: gray;
+    background-color: rgb(170, 170, 170);
 }
 
 .classh1{
@@ -67,9 +67,7 @@ body{
     bottom: 12px;
     left: 242px;
     right: 5px;
-    letter-spacing: 3px;
-    
-    
+    letter-spacing: 3px;   
 }
 
 
@@ -346,7 +344,7 @@ body{
     font-size: 100px;
     color: rgb(16, 36, 61);
     position: absolute;
-    top: 505%;
+    top: 550%;
     left: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
@@ -355,7 +353,7 @@ body{
     font-size: 100px;
     color: rgb(16, 36, 61);
     position: absolute;
-    top: 505%;
+    top: 550%;
     left: 32%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -363,7 +361,7 @@ body{
     font-size: 100px;
     color: rgb(16, 36, 61);
     position: absolute;
-    top: 505%;
+    top: 550%;
     left: 54%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -371,7 +369,7 @@ body{
     font-size: 100px;
     color: rgb(16, 36, 61);
     position: absolute;
-    top: 505%;
+    top: 550%;
     left: 75%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
