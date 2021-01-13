@@ -343,6 +343,14 @@ body{
 }
 
 .heading26{
+    font-size: 90px;
+    position: absolute;
+    top: 555%;
+    color: rgb(182, 9, 9);
+    padding-left: 4%;
+}
+
+/* .heading26{
     font-size: 100px;
     color: rgb(16, 36, 61);
     position: absolute;
@@ -374,7 +382,7 @@ body{
     top: 614%;
     left: 75%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+} */
 
 .div{
    
@@ -429,16 +437,54 @@ body{
     font-size: 15px;
 }
 .icon-divs{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 4% 25%;
-    padding-left: 8%;
-    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .date-div{
     padding-left: 55%;
     font-size: 20px;
+}
+
+.a-tag{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 60px;
+    text-align: center;
+    margin: 10px;
+    line-height: 120px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+
+}
+.a-tag i{
+    transition: all 0.2s linear;
+    font-size: 30px;
+    
+  }
+  .a-tag:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+    font-size: 30px;
+}
+.fa-youtube{
+    color: #e84118;
+    font-size: 30px;
+
+}
+.fa-linkedin{
+    color: #0097e6;
+    font-size: 30px;
+}
+.fa-twitter{
+    color:#0097e6 ; 
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 30px;
 }
 
 
