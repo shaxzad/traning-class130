@@ -47,6 +47,7 @@ body{
 .btn-primary:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(170, 170, 170);
+    transform: scale(1.1);
 }
 
 .classh1{
@@ -98,7 +99,7 @@ body{
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
 .box1:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 .box2{
@@ -108,7 +109,7 @@ body{
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
 .box2:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 
@@ -119,7 +120,7 @@ body{
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
 .box3:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 
@@ -130,7 +131,7 @@ body{
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
 .box4:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 
@@ -281,8 +282,7 @@ body{
     height: 30px;
     opacity: 0.4;
     margin: 191% 0%;
-    
-
+    border-radius: 4px;
 }
 
 .btn-btn-lg{
@@ -290,6 +290,7 @@ body{
     height: 30px;
     margin: 191% 0%;
     opacity: 0.4;
+    border-radius: 4px;
 }
 
 .btn-btn-sm{
@@ -297,6 +298,7 @@ body{
     height: 30px;
     margin: 191% 0%;
     opacity: 0.4;
+    border-radius: 4px;
 }
 
 .btn-btn-danger{
@@ -304,24 +306,30 @@ body{
     height: 30px;
     margin: 191% 0%;
     opacity: 0.4;
+    border-radius: 4px;
+    
 }
 .btn-btn-secondary:hover{
     color: rgb(255, 255, 255);
     background-color: green;
+    transform: scale(1.1);
 }
 
 .btn-btn-lg:hover{
     color: rgb(255, 255, 255);
     background-color: green;
+    transform: scale(1.1);
 }
 
 .btn-btn-sm:hover{
     color: rgb(255, 255, 255);
     background-color: green;
+    transform: scale(1.1);
 }
 .btn-btn-danger:hover{
     color: rgb(255, 255, 255);
     background-color: green;
+    transform: scale(1.1);
 }
 
 
@@ -502,6 +510,7 @@ body{
 }
 .fa-facebook{
     font-size: 30px;
+    color: blue;
 }
 
 
@@ -516,15 +525,18 @@ body{
     margin: 7% 23%;
     padding-left: 3%;
     align-items: center;
+    
 }
 .div8:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
+    
 }
 .div8{ 
     width: 100px;
     height: 200px;
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
+    
 }
 .div9{
     
@@ -532,9 +544,10 @@ body{
     height: 200px;
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
+    
 }
 .div9:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 .div10{
     
@@ -542,9 +555,10 @@ body{
     height: 200px;
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
+    
 }
 .div10:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 .div11{
     
@@ -552,9 +566,10 @@ body{
     height: 200px;
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
+    
 }
 .div11:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 
