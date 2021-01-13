@@ -85,9 +85,9 @@
     <div class="container">
       <div class="about">
         <div class="box1">
-          <img src="./assets/images/4.jpg" style="width: 100%;" alt="" />
+          <img src="./assets/images/4.jpg" style="width: 100%;height: 100%;" alt="" />
         </div>
-        <div class="box2">
+        <div class="span box2">
           <span style="font-size: 15px; color: red; font-weight: bold">About Our Company __</span><br />
           <div class="degsin">
             <span style="font-size: 35px; color: #032e42; font-weight: bold">
@@ -156,7 +156,7 @@
     <div class="overcolor"></div>
     <div class="container">
       <div class="service flex">
-      <div class="box5">
+      <div class="span box5">
         <span style="font-size: 15px; color: red; font-weight: bold">Premium Web Services__</span>
         <br>
         <span style="font-size: 35px; color: rgb(35, 35, 71); font-weight: bold">Our Best Services</span>
@@ -181,7 +181,7 @@
           <button class="btn-secondary">Learn More</button>
         </div>
         <div class="width">
-          <img src="/assets/images/service5.jpg" class="img" alt="">
+          <img src="./assets/images/service5.jpg" class="img" alt="">
 
           <h2>Website Designing</h2>
           <p>Lorem ipsum dolor sit amet
@@ -210,8 +210,8 @@
 
         <img src="./assets/images/home1-pic1.jpg" class="pic" alt="">
 
-        <div class="box7" style="background-color: orangered; height: 620px;"></div>
-        <div class="box8" style="background-color: black; height: 620px;">
+        <div class="box7" ></div>
+        <div class="box8" >
         </div>
         <div class="b2">
 
@@ -244,7 +244,7 @@
   </section>
   <section>
     <div class="container flex">
-      <div class="box5">
+      <div class="span box5">
         <span style="font-size: 15px; color: red; font-weight: bold">Our Team Members</span>
         <br>
         <span style="font-size: 35px; color: rgb(35, 35, 92); font-weight: bold">Our Creative Team</span>
@@ -260,26 +260,34 @@
         <div class="team">
           <img src="./assets/images/team2.jpg" id="img" alt="">
           <i class="fa fa-share-alt"></i>
-          <span style="font-size: 25px;color: rgb(37, 37, 85);font-weight: bold;">Robert White</span><br>
-          <span style="color: rgb(85, 81, 81);">Marketing Head</span>
+          <div class="team-name">
+          <span style="font-size: 19px;color: rgb(37, 37, 85);">Robert White</span><br>
+          <span style="color: #707070;font-size: 13px;">Marketing Head</span>
+        </div>
         </div>
         <div class="team">
           <img src="./assets/images/team3.jpg" id="img" alt="">
           <i class="fa fa-share-alt"></i>
-          <span style="font-size: 25px;color: rgb(33, 33, 73);font-weight: bold;">Sarah George</span><br>
-          <span style="color: rgb(85, 81, 81);">Sales Manager</span>
+          <div class="team-name">
+          <span style="font-size: 19px;color: rgb(33, 33, 73);">Sarah George</span><br>
+          <span style="color: rgb(85, 81, 81);font-size: 13px;">Sales Manager</span>
+        </div>
         </div>
         <div class="team">
           <img src="./assets/images/team4.jpg" id="img" alt="">
           <i class="fa fa-share-alt"></i>
-          <span style="font-size: 25px;color: rgb(33, 33, 82);font-weight: bold;">Alisha Smith</span><br>
-          <span style="color: rgb(85, 81, 81);">Event Organizer</span>
+          <div class="team-name">
+          <span style="font-size: 19px;color: rgb(33, 33, 82);">Alisha Smith</span><br>
+          <span style="color: rgb(85, 81, 81);font-size: 13px;">Event Organizer</span>
+        </div>
         </div>
         <div class="team">
           <img src="./assets/images/team6.jpg" id="img" alt="">
           <i class="fa fa-share-alt"></i>
-          <span style="font-size: 25px;color: rgb(30, 30, 75);font-weight: bold;">Andrew Wills</span><br>
-          <span style="color: rgb(85, 81, 81);">Web Developer</span>
+          <div class="team-name">
+          <span style="font-size: 19px;color: rgb(30, 30, 75);">Andrew Wills</span><br>
+          <span style="color: rgb(85, 81, 81); font-size: 13px;">Web Developer</span>
+        </div>
         </div>
       </div>
     </div>
@@ -295,8 +303,8 @@
           </div>
         </div>
       </div>
-
-
+<!-- /***************contact form*********************/ -->
+<div class="container">
       <div class="contact-form">
         <h2>Contact Us Today and Get a Free Online Quote Now!</h2>
         <form action="">
@@ -321,7 +329,7 @@
           </div>
           </div>
           <div class="textarea">
-            <textarea name="message" id="" cols="50" rows="5" placeholder="Your Message"></textarea>
+            <textarea  placeholder="Your Message"></textarea>
           </div>
           <div>
             <button class="btn">Send Message</button>
@@ -329,13 +337,14 @@
         </form>
       </div>
     </div>
+    </div>
   </section>
   <!-- **********************our clients***************************     -->
   <section class="sec2">
     <div class="overimg"></div>
     <div class="container">
       <div class="clients">
-        <div class="div">
+        <div class="span div">
           <span style="font-size: 15px; color: red; font-weight: bold">Our Clients Testimonials</span><br>
           <span style="font-size: 35px; color: rgb(25, 25, 66); font-weight: bold">What People Say</span>
         </div>
@@ -424,13 +433,13 @@
     </div>
   </section>
   <!-- ***************news and articles*********************** -->
-  <section>
+  <section class="secnews">
     <div class="container">
       <div class="news">
-        <div>
-          <span style="font-size: 15px; color: red; font-weight: bold">
+        <div class="span">
+          <span style="font-size: 15px; color: red; font-weight: bold;">
             Our News and Articles
-          </span><br>
+          </span><br><br>
           <span style="font-size: 35px; color: rgb(27, 27, 73); font-weight: bold">
             Latest From Blog
           </span>
@@ -450,15 +459,15 @@
             <img src="./assets/images/1-100x70.jpg" style="width: 100%; height: 100%;">
           </div>
           <div id="b2">
-            <p style="font-size: 25px; font-weight: bold;">Why a visual identity <br>system is mor</p>
+            <h2 style="color: #032e42;">Why a visual identity <br>system is mor</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               At tenetur reprehenderit facere quibusdam possimus architecto
 
             </p>
-            <span>
+            <span style="color: #032e42;">
               <i class="fas fa-clock"></i>
-              Aug 23, 2019
+              <b>Aug 23, 2019</b>
             </span>
           </div>
         </div>
@@ -467,15 +476,15 @@
             <img src="./assets/images/2-100x70.jpg" alt="" style="width: 100%; height: 100%;">
           </div>
           <div id="b2">
-            <p style="font-size: 25px; font-weight: bold;">Make website that<br> surpasses amongst</p>
+            <h2 style="color: #032e42;">Make website that<br> surpasses amongst<br> all the</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               At tenetur reprehenderit facere quibusdam possimus architecto
 
             </p>
-            <span>
+            <span style="color: #032e42;">
               <i class="fas fa-clock"></i>
-              Aug 22, 2019
+              <b>Aug 22, 2019</b>
             </span>
           </div>
         </div>
@@ -487,7 +496,11 @@
         <div class="container">
           <div class="footer">
             <div class="list1">
-                  <h1><i class="fab fa-fantasy-flight-games" style="color: red; font-size: 40px;">Bizix</i></h1>
+                  <h1>
+                    <span>
+                      <i class="fab fa-fantasy-flight-games" style="color: red; font-size: 40px;">Bizix</i>
+                    </span> 
+                  </h1>
                   <p>
                     Perferendis rendae fugia rchite beatae<br>
                     repderit vitae recaae debitis ae <br>
@@ -500,9 +513,10 @@
           <i class="fab fa-instagram insicon"></i>
             </div>
             <div class="list2">
+              <h3>
+                <span> Our Services</span>
+              </h3>
               <ul>
-              <h3>Our Services</h3>
-              
                 <li> WebSite designing</li>
                 <li>Domain and Web Hosting</li>
                 <li>Digital Photoghraphy</li>
@@ -511,13 +525,15 @@
               </ul>
             </div>
             <div class="list3">
-              <h3> Recent Posts</h3>
+              <h3> 
+                <span>Recent Posts</span> 
+              </h3>
                       <div class="footer-box">
                         <div class="footer-box1">
                           <img src="./assets/images/1-100x70.jpg" alt="">
                         </div>
                         <div class="footer-box2">
-                          <p>Why a visual identity <br>system is mor</p>
+                          <span>Why a visual identity <br>system is mor</span><br>
                           <span>
                             <i class="fas fa-clock"></i>
                             Aug 23, 2019
@@ -529,7 +545,7 @@
                           <img src="./assets/images/2-100x70.jpg" alt="">
                         </div>
                         <div class="footer-box2">
-                          <p>Make website that<br> surpasses amongst</p>
+                          <span>Make website that<br> surpasses amongst</span><br>
                           <span>
                             <i class="fas fa-clock"></i>
                             Aug 22, 2019
@@ -539,8 +555,10 @@
                     </div>
             </div>
             <div class="list4">
-              <h3>Useful Links</h3>
-              <div class="flex">
+              <h3>
+                <span>Useful Links</span> 
+              </h3>
+              <div class="footer-flex">
                 <ul class="list-footer">
                   <li>Home</li>
                   <li>Contact Us</li>

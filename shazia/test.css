@@ -16,6 +16,8 @@ p {
     letter-spacing: 0px;
     font-weight: 400;
     visibility: visible;
+    line-height: 33px;
+
 }
 .btn {
     border: 2px solid brown;
@@ -69,6 +71,9 @@ p {
     display: block;
     background-color: red;
     } */
+.span {
+    padding-top: 25px;
+}    
 /*helper style end here*/
 /*Top Header start here*/
 .header {
@@ -285,7 +290,6 @@ p {
     
 }
 .sec .service p {
-    line-height: 25px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -319,10 +323,13 @@ p {
 
 .box7 {
     flex: 1;
-    
+    background-color: orangered;
+     height: 700px;
 }
 .box8 {
     flex: 3;
+    background-color: black; 
+    height: 700px
 }
 .b {
     position: relative;
@@ -332,10 +339,10 @@ p {
 }
 .pic {
     
-    height: 390px;
-    width: 380px;
+    height: 550px;
+    width: 500px;
     position: absolute;
-    top: 120px;
+    top: 90px;
     left: 100px;
 }
 .b2 {
@@ -344,8 +351,8 @@ p {
     padding: 2rem;
     box-sizing: border-box;
     position: absolute;
-    top: 120px;
-    left: 490px;
+    top: 90px;
+    left: 600px;
     line-height: inherit;
 }
 .b3 {
@@ -370,7 +377,6 @@ p {
     position: relative;
 }
 .box6 p {
-    line-height: 25px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -380,7 +386,7 @@ p {
 }
 .fa-share-alt {
     position: absolute;
-    top: 240px;
+    top: 255px;
     left: 165px;
     padding: 10px;
     background-color: brown;
@@ -389,6 +395,11 @@ p {
     border-radius: 50%;
     border: 3px solid white;
     
+}
+.team-name {
+    padding: 8px;
+    padding-left: 18px;
+    font-weight: bold;
 }
 #pos {
     position: relative;
@@ -400,50 +411,61 @@ p {
 }
 /******contact form ****/
 .contact-form {
-    width: 420px;
-    height: 400px;
+    width: 35%;
     position: absolute;
     left: 600px;
     top: 50px;
     padding: 15px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 
 }
 h2 {
     font-size: 25px;
-    color: rgb(17, 17, 71);
+    color: #032e42;
 }
 .float-l {
     float: left;
-    width: 45%;
+
 }
 .float-r {
     float: right;
-    width: 45%;
 }
 .box-input{
     position: relative;
+    margin: 8px 0;
+    padding: 0;
 }
-.input-icon {
+.box-input .input-icon {
     color: red;
     position: absolute;
     top: 18px;
-    left: 162px;
+    left: 200px;
 }
-.contact-form input {
+.box-input input {
     border: none;
     height: 35px;
     font-size: 17px;
-    margin: 8px;
-    width: 90%; 
+    margin: 8px 0;
+    width: 100%; 
 }
-input:hover {
-    content: "input";
+
+input:focus {
+    border: none;
+    outline: none;
     border-bottom: 2px solid brown;
 }
-.textarea {
+textarea{
     width: 100%;
     font-size: 17px;
+    margin: 8px 0;
+    padding-bottom: 70px;
+    border: none;
+    text-align: start;
+}
+textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid brown;
 }
 /*********our clients*******/
 .sec2 {
@@ -476,7 +498,6 @@ input:hover {
 }
 
 .clients p {
-    line-height: 25px;
     font-size: 19px;
 }
 .cardview {
@@ -562,13 +583,15 @@ input:hover {
     border-radius: 50%;
 }
 /*******news **********/
+.secnews {
+    padding-bottom: 30px;
+}
 .news {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-top: 50px;
 }
 .news p {
-    line-height: 25px;
     font-size: 19px;
 }
 .blog {
@@ -591,12 +614,16 @@ input:hover {
 .footer {
     display: flex;
     flex-direction: row;
+    column-gap: 30px;
     color: white;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 .end {
     background-color: rgb(54, 51, 51);
     padding-bottom: 40px;
+}
+ul { 
+    padding-left: 0;
 }
 .footer p {
     opacity: 1;
@@ -630,9 +657,7 @@ input:hover {
    list-style-type: none; 
    line-height: 35px;
 }
-.list3 {
-    padding: 5px;
-}
+
 .footer-box{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -641,6 +666,7 @@ input:hover {
 }
 .footer-box1 img {
     height: 100%;
+    width: 100%;
     border-radius: 8px;
     
 }
@@ -648,21 +674,30 @@ input:hover {
     font-size: 13px;
     padding-left: 8px;
 }
+.list4 .footer-flex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
 .list4 ul li {
     list-style-type: none;
     line-height: 30px;
 }
-.list2 li::before {
+.list2, .list4, li::before {
     content: "> ";
-}
-.list4 .list-footer li::before{
-    content: ">  ";
-    /* font-weight: bold; */
 }
 li:hover {
     color: #d83030;
     cursor: pointer;
 }
+.footer h3 {
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0px;
+    text-transform: none;
+    line-height: 30px;
+}
+
 .col1 {
     background-color: rgb(22, 21, 21);
     flex: 1;
