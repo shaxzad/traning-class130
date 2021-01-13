@@ -19,10 +19,11 @@ body{
 }
 .li-list:hover{
     color: rgb(73, 4, 233);
+    
 }
 .a-list:hover{
     color: rgb(221, 206, 206);
-    
+    transform: scale(0.2);
 
 }
 .a-list{
@@ -83,6 +84,7 @@ body{
     padding-left: 3%;
     
 }
+
 .bold{
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,6 +97,9 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.box1:hover{
+    transform: scale(1.4);
+}
 
 .box2{
     width: 100px;
@@ -102,6 +107,10 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.box2:hover{
+    transform: scale(1.4);
+}
+
 
 .box3{
     width: 100px;
@@ -109,6 +118,10 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.box3:hover{
+    transform: scale(1.4);
+}
+
 
 .box4{
     width: 100px;
@@ -116,6 +129,10 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.box4:hover{
+    transform: scale(1.4);
+}
+
 
 .awards{
     font-size: 25px;
@@ -500,6 +517,9 @@ body{
     padding-left: 3%;
     align-items: center;
 }
+.div8:hover{
+    transform: scale(1.4);
+}
 .div8{ 
     width: 100px;
     height: 200px;
@@ -513,6 +533,9 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.div9:hover{
+    transform: scale(1.4);
+}
 .div10{
     
     width: 100px;
@@ -520,12 +543,18 @@ body{
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
 }
+.div10:hover{
+    transform: scale(1.4);
+}
 .div11{
     
     width: 100px;
     height: 200px;
     background-color: rgb(94, 94, 89);
     clip-path: polygon(0 0, 36% 0, 100% 0, 100% 100%, 51% 84%, 0 100%, 0% 80%);
+}
+.div11:hover{
+    transform: scale(1.4);
 }
 
 
