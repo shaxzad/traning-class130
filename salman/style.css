@@ -1,0 +1,637 @@
+ /* helper style start here */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    padding: 0px;
+    padding-left: 0px;
+}
+.container{
+    margin: 0px 50px;
+}
+.row{
+    display: grid;
+}
+.col{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.btn-primary{
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-display: inline-block;
+    font-size: 16px;
+    background-color: rgb(224, 9, 9);
+    border-radius: 8px;
+    outline: none;
+}
+.btn:hover{
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-display: inline-block;
+    font-size: 16px;
+    background-color: rgb(58, 55, 55);
+    border-radius: 8px;
+    outline: none;
+
+}
+.btn-dark{
+    background-color: rgb(231, 37, 37);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+}
+.btn-secondary{
+    background-color: rgb(231, 37, 37);
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+ /* helper style end here */
+/* header sec start here */
+
+  /* navbar start here */
+header ul{
+    list-style-type: none;
+    display: grid;
+    padding: 10px;
+    padding-left: 50px;
+    grid-template-columns:8% 8% 8% 8% 8% 50% 8%;
+    overflow: hidden;
+}
+header ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    color: black;
+    font-style: inherit;
+}
+
+header ul li a:hover{
+    color: red;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+  /* top backgroung img */
+.top-sec{
+    background-image: url(img/1.png);
+    background-repeat: round;
+    height: 100vh;
+    overflow:hidden;
+}
+.top-sec .col{
+    margin: 0px;
+    padding: 0px;
+}
+.top-sec .alfa{
+    line-height: 6px;
+    font-family:inherit;
+    margin-top: 100px;
+}
+.top-sec .alfa h1{
+    font-size: 35px;
+    margin-top: 30px;
+    font-family:inherit;
+}
+.top-sec .alfa p{
+    margin-top: 45px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/* top section button */
+.top-sec .btn-margin{
+    margin-top: 30px;
+}
+  /* list start here */
+.top-sec .list table{
+    margin-top: 250px;
+    text-align: start;
+    font-family: sans-serif;
+    border-spacing: 15px;
+
+}
+.top-sec .list table th{
+    text-align: start;
+}
+  /* about css start here */
+.About{
+    margin-top: 45px;
+    position: relative;
+}
+.About h2{
+    font-family: system-ui;
+    font-size: 2rem;
+}
+.About h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: inherit;
+    z-index: -15;
+    padding: 16px;
+    /* padding-right: 12px; */
+    top: 35px;
+}
+.About p{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: system-ui;
+}
+.About .box img{
+    border-radius: 5px;
+}
+/* .About .row h2::before{
+    font-size: 50px;
+    content: first;
+    background-color: red;
+    border-radius: 10px;
+    border: red;
+} */
+.About .box{
+    display: grid;
+    grid-template-columns: 40% 56%;
+}
+.About .container .row p{
+    margin-top: -12px;
+}
+.About .container .row .meicons p{
+    margin-top: 0pc;
+}
+.About .box2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 0px;
+    margin-top: 15px;
+    /* height: 150px; */
+}
+.About .box2 .btn-margin{
+    margin-top: 10px;
+}
+.About .mbox .list table{
+    text-align: left;
+    border-spacing: 10px;
+}
+
+.About .meicons{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-column-gap: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+.About .meicons .fa{
+    background-color: whitesmoke;
+    padding: 30px;
+    font-size: 25px;
+}
+.About .meicons p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.About .meicons .fab{
+    background-color: whitesmoke;
+    padding: 30px;
+    font-size: 25px;
+}
+/* About section end here */
+ /* my expercince section start here */
+.experience{
+    margin-top: 40px;
+}
+.experience .container .row .box .sec3{
+    font-family: serif;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 50px;
+    position: relative;
+}
+.experience .container .row .sec--3{
+    padding-left: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 0 10px 0px rgb(197, 196, 196), 5px 0 8px 1px rgb(197, 196, 196);
+}
+.experience .container .row .sec--3 h2{
+    position: absolute;
+    top: 0;
+    margin-top: -50px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.experience .container .row .box .forcol{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 0 10px 0px rgb(197, 196, 196), 5px 0 8px 1px rgb(197, 196, 196);
+}
+.experience .container .row .box .sec3 .forcol::before{
+    content: "";
+    border-right: 2px solid red;
+    height: 420px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.experience .container .row .box .sec3 .backline::before{
+    content: "";
+    border-right: 2px solid red;
+    height: 420px;
+    position: absolute;
+    margin-left: -30px;
+}
+.experience .container .row .box .sec3 .sec--3 .backline h3{
+    position: relative;
+}
+.experience .container .row .box .sec3 .forcol h3{
+    position: relative;
+    top: 0px;
+}
+.experience .container .row .box .sec3 .forcol .dot1{
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -34px;
+    position: absolute;
+}
+.experience .container .row .box .sec3 .backline .dot1{
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: -34px;
+    position: absolute;
+    /* top: 0px; */
+
+}
+/* Experience section end here */
+
+/* my service section start here */
+.service{
+    margin-top: 40px;
+    position: relative;
+    
+}
+.service .container .row .col .sec2{
+    display: grid;
+    grid-template-columns: 32% 32% 31%;
+    grid-column-gap: 20px;
+    text-align: center;
+}
+.service .container .row .col h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    z-index: -15;
+    padding: 16px;
+    top: 18px;
+}
+.service .container .row .col p{
+    margin-top: -12px;
+    font-family: system-ui;
+}
+.service .container .row .col .sec2 .box{
+    background-color: whitesmoke;
+    padding: 60px 60px;
+}
+.service .container .row .col .sec2 .box span{
+    color: red;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 20px 25px;
+    font-weight: bold;
+}
+.service .container .row .col .sec1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 32% 32% 31%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center
+}
+.service .container .row .col .sec1 .box{
+    background-color: whitesmoke;
+    padding: 60px 60px;
+}
+.service .container .row .col .sec1 .box span{
+    color: red;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 20px 25px;
+    font-weight: bold;
+}
+.service .container .row .col h3{
+    margin-top: 40px;
+}
+/* my service section end here */
+
+/* my work section start here */
+.work{
+    margin-top: 40px;
+    position: relative;
+}
+.work .container .row .col .sec1{
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    grid-column-gap: 12px;
+}
+.work .container .row .col h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    z-index: -15;
+    padding: 16px;
+    top: 18px;
+}
+.work .container .row .col p{
+    margin-top: -12px;
+    font-family: system-ui;
+
+}
+.work .container .row .col .sec1 h4{
+    background: whitesmoke;
+    height: 49px;
+    width: 342px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-shadow: 0px 0 0px 0px rgb(197, 196, 196), 0px 0 8px 0px rgb(197, 196, 196);
+}
+.work .container .row .col .sec2{
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    grid-column-gap: 12px;
+    margin-top: 20px;
+}
+.work .container .row .col .sec2 h4{
+    background: whitesmoke;
+    height: 49px;
+    width: 342px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-shadow: 0px 0 0px 0px rgb(197, 196, 196), 0px 0 8px 0px rgb(197, 196, 196);
+}
+/* my work section end here */
+
+/* my clients section start here */
+.clients{
+    margin-top: 34px;
+    position: relative;
+}
+.clients .container .row p{
+    margin-top: -12px;
+    padding-top: 0%;
+    font-family: system-ui;
+}
+.clients .container .row .col h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    z-index: -15;
+    padding: 16px;
+    top: 18px;
+}
+.clients .container .row .col .box{
+    display: grid;
+    grid-template-columns: 46% 46%;
+    grid-column-gap: 80px;
+    margin-left: 50px;
+}
+.clients .container .row .col .box .ser{
+    background-color:rgb(235, 235, 235);
+    padding: 0px 55px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    /* width: 430px; */
+}
+.clients .container .row .col .box .ser h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.clients .container .row .col .box .ser h3{
+    position: relative;
+
+}
+.clients .container .row .col .box .ser h3::before{
+    content: "";
+    border-right: 3px solid red;
+    height: 18px;
+    position: absolute;
+    margin-left: -10px;
+    /* margin-  top: 20px; */
+}
+.clients .container .row .col .box .ser img{
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    border-style: double;
+    padding: 3px 3px;
+    position: absolute;
+    top: 0px;
+    margin-left: -94px;
+    margin-top: 84px;
+}
+.clients .container .row .col .box .ser span{
+    color: rgb(165, 161, 161);
+    font-size: 15px;
+}
+.clients .container .row .col .dot1{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(158, 154, 154);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    word-spacing: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.clients .container .row .col .dot1:hover{
+    background-color: rgb(228, 8, 8);
+}
+/* my clients section end here here */
+
+/* my blog section end here here */
+.blog{
+    margin-top: 40px;
+    position: relative;
+}
+.blog .container .row .col h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    z-index: -15;
+    padding: 16px;
+    top: 18px;
+}
+.blog .container .row .col p{
+    margin-top: -5px;
+    font-family: system-ui;
+}
+.blog .container .row .col .box{
+    display: grid;
+    grid-template-columns: 56% 40%;
+}
+.blog .container .row .col .sec{
+    display: grid;
+    grid-template-columns: 41% 39%;
+    grid-column-gap: 215px;
+    margin-top: -40px;
+
+}
+.blog .container .row .col .sec .box1{
+    border-radius:10px;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    top: 0%;
+    margin-left: 30px;
+    box-shadow: 0px 0 10px 0px rgb(197, 196, 196), 0px 0 10px 0px rgb(197, 196, 196);
+}
+.blog .container .row .col .sec .box2{
+    border-radius:10px;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    margin-left: 0px;
+    top: 0%;
+    box-shadow: 0px 0 10px 0px rgb(197, 196, 196), 0px 0 10px 0px rgb(197, 196, 196);
+}
+/* my blog section-- box 2 csshere */
+.blog .container .row .col .img--2{
+    display: grid;
+    grid-template-columns: 56% 40%;
+    margin-top: 30px;
+
+}
+.blog .container .row .col p{
+    margin-top: -12px;
+}
+.blog .container .row .col span{
+    position: relative;
+}
+.blog .container .row .col span::before{
+    content: "";
+    border-right: 3px solid red;
+    height: 18px;
+    position: absolute;
+    margin-left: -30px;
+    /* margin-  top: 20px; */
+}
+/* my blog section end here */
+/* contact section start here */
+.contact{
+    margin-top: 40px;
+    position: relative;
+}
+.contact .container .row .col h2::before{
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    background-color:rgb(247, 181, 181);
+    border-radius: 50%;
+    z-index: -15;
+    padding: 12px;
+    top: 20px;
+}
+.contact .container .row .col .box form{
+    background-color:whitesmoke;
+    height: 470px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 05px;
+}
+.contact .container .row .col .box input{
+    width: 350px;
+    height: 33px;
+    background-color: whitesmoke;
+    border: solid 1px;
+    border-radius: 05px;
+    font-family: monospace;
+    padding: 05px;
+}
+.contact .container .row .col .box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contact .container .row .col p{
+    margin-top: -12px;
+    font-family: system-ui;
+}
+.contact .container .row .col .box p .fa{
+    color: red;
+    padding-right: 10px;
+}
+.contact .container .row .col .box .fab{
+    color: red;
+    padding-right: 10px;
+}
+.contact .container .row .col .box .lastsec{
+    margin-top: -10px;
+}
+.contact .container .row .col .box h4{
+    margin-top: 35px;
+}
+/* contact section end here */
+/* footer section start here */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+footer span{
+    color: red;
+}
+
