@@ -366,6 +366,9 @@ body{
     margin: 9%;
     clip-path: polygon(0 23%, 46% 0, 100% 20%, 100% 79%, 50% 100%, 0 77%);
 }
+.img-tag2:hover{
+    transform: scale(1.1);
+}
 
 .heading26{
     font-size: 90px;
