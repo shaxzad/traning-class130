@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+/* headerSection start here */
+
+.headerSection{
+    background-image: url(./images/h5.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    .iconsContainer  {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        background-color: blue;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .navBar{
+        display: flex;
+        background-color: blue;
+        color: black;
+        padding: 5px;
+        width: 85%;
+        margin: auto;
+        border-radius: 5px;
+    }
+}
+    .iconsContainer{
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+.left-icons{
+    color: #fff ;
+    padding: 10px;
+    flex-basis: 61%;
+}
+.left-icons i{
+    padding-left: 27px;
+    font-size: 11px
+}
+.right-icons{
+    color: #fff ;
+    padding: 10px;
+}
+.right-icons i{
+    padding-left: 15px;
+    font-size: 11px
+}
+.navBar{
+    display: flex;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+.rosa-icon{
+    flex-basis: 50%;
+    margin-left: 10px;
+
+}
+.rosa-list ul{
+    display: flex;
+    list-style-type: none;
+}
+.rosa-list ul li{
+    margin:10px;
+}
+.rosa-list ul li select{
+    border: none;
+}
+.rosathe h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.rosathe p{
+    text-align: center;
+    color: #fff;
+}
+
+/* headerSection close here */
+/* 2nd section start */
+.send-sec{
+    background-color: red;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+}
+.second-sec{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.second-sec select{
+    border: none;
+    margin-left: -34px;
+    color: black;
+    background-color: rgb(219, 33, 33);
+}
+.second-sec input{
+    padding: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(219, 33, 33);
+}
+.second-sec i{
+    font-size: 21px;
+    margin-left: -30px;
+}
+/* 3rd section start */
+.container-2{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.holiday{
+    width: 7%;
+    padding: 50px 170px;
+}
+.holiday i{
+    font-size: 61px;
+    padding-top: 37px;
+    padding-left: 68px;
+    margin-top: -38px;
+}
+.holiday p{
+    padding-top: 28px;
+    letter-spacing: 1px;
+    font-family: serif;
+    font-weight: 100;
+    width: 550px;
+}
+.holiday h2{
+    font-family: -webkit-pictograph;
+    font-weight: 600;
+    font-weight: 600;
+    width: 222px;
+}
+.holiday-1{
+    height: 159px;
+    background-color: red;
+    width: 2px;
+    margin-left: -29%;
+    margin-top: 50px;
+}
+
+/* 4th section */
+.container-3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 35, 35);
+    width: 100%;
+}
+.parent{
+    padding-top: 30px;
+}
+.child{
+    display: flex;
+    width: 916px;
+    height: 43%;
+    margin-left: 40px;
+}
+.child img{
+    height: 196px;
+    margin: 0px;
+    margin-left: 0px;
+}
+.img-div{
+    padding: 30px 69px;
+    margin-top: -28px;
+}
+.room{
+    padding: 31px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -541px;
+}
+.room h2{
+    color: white;
+    text-transform: capitalize;
+}
+.room i{
+    color: whitesmoke;
+    font-size: 58px;
+
+}
+.room p{
+    color: rgb(250, 245, 239);
+    text-transform: capitalize;
+}
+.room h4{
+    color: rgb(231, 64, 64);
+    text-transform: capitalize;
+    font-size: 21px;
+}
+ button{
+    font-size: 12px;
+    padding: 17px 24px;
+    text-transform: capitalize;
+    background-color: rgb(231, 64, 64);
+    color: rgb(250, 245, 239);
+    letter-spacing: 1px;
+    border: none;
+}
+/* internationalSection starts here */
+
+.internationalSection{
+    display: flex;
+}
+.coisineDiv{
+    flex-basis: 38%;
+    text-align: center;
+    padding-top: 110px;
+}
+.coisineDiv h2{
+    font-size: 30px;
+}
+.coisineDiv i{
+    font-size: 50px;
+    color: #cccc;
+    padding-bottom: 30px;
+}
+.imagesDiv{
+    flex-basis: 42%;
+}
+.row1{
+    display: flex;
+    margin-top: -7px;
+}
+.row1 img{
+    width: 31%;
+    height: 250px;
+    padding-right: 10px;
+} 
+.row2{
+    display: flex;
+    margin-top: -18px;
+    margin-bottom: -7px;
+}
+.row2 img{
+    width: 31%;
+    height: 200px;
+    padding-right: 10px;
+} 
+/* internationalSection  closse here */
+
+ /* finess gym & spa start here   */
+
+.finess{
+    display: flex;
+}
+.finessImgs{
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgb(37, 35, 35);
+}
+.finessImgs img{
+    margin: 100px 30px 100px 0px;
+    width: 45%;
+    height: 200px;
+
+}
+.finessRight{
+    flex-basis: 50%;
+    background-color: #ff4747;
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+.finessRight h2{
+    color: white;
+    text-transform: capitalize;
+    margin-top: -130px;
+    padding: 12px;
+}
+.finessRight i{
+    color: #ccc;
+    font-size: 58px;
+    padding-bottom: 27px;
+
+}
+.finessRight p{
+    color: rgb(250, 245, 239);
+    text-transform: capitalize;
+}
+.finessRight button{
+    font-size: 12px;
+    padding: 17px 24px;
+    text-transform: capitalize;
+    background-color: #fff;
+    color:#f90303;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* finess gym & spa close here */
+/* CEO start here */
+.sec-8{
+    background-color: white;
+}
+.container-6{
+ text-align: center;
+ padding: 6%;
+}
+.container-6 .quote{
+   font-size: 30px;
+   background-color: #ccc;
+   color: white;
+   padding: 20px;
+   border-radius: 50%;
+}
+.star{
+   font-size: 15px;
+   color:red;
+   padding-top: 25px;
+}
+.container-6 h2{
+ color: red;
+}
+.container-6 h3{
+ color: red;
+ font-family: sans-serif;
+}
+.container-6 img{
+   width: 7%;
+}
+.container-6 h4{
+ text-transform: capitalize;
+ color: rgba(17, 16, 16, 0.308);
+}
+.container-6 p{
+ color: rgba(24, 20, 20, 0.308);
+}
+/* CEO closed here */
+ /* Reserve start here */
+ .container-7{
+    display: flex;
+    background-color: black;
+    padding: 8%;
+    justify-content: space-between;
+}
+.btn-1{
+    color: white;
+}
+.btn-1 h2{
+  text-transform: uppercase;
+  color: rgb(231, 64, 64);
+}
+.btn-1 p{
+  word-spacing: 2px;
+  font-family: sans-serif;
+}
+.btn-1 button{
+    margin-left: 30px;
+}
+ /* Reserve close here */
+ 
+  /* last section start here */
+  .container-8{
+    display: flex;
+    flex-basis: 25% 25% 25% 25%;
+    background-color: red;
+    padding: 5%;
+    color: white;
+}
+.touch p{
+  float: right;
+  margin-right: 47px;
+}
+img{
+  width: 28%;
+  height: 72px;
+  margin: 9px;
+  margin-left: 0px;
+}
+.touch i{
+    margin: 7px;
+}
+.touch input{
+  padding: 12px;
+  background-color: red;
+  position: relative;
+}
+.touch h3{
+  margin-left: 75px;
+  margin-top: 98px;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.touch h2{
+    text-transform: capitalize;
+}
+.input i{
+  font-size: 51px;
+  position: absolute;
+  margin-top: -92px;
+}
+span{
+    border: 2px solid white;
+    padding: 1px;
+    margin: 5px;
+    margin-top: -2px;
+    font-size: 14px;
+    position: absolute;
+}
+span i{
+    font-size: 30px;
+}
+::placeholder{
+    color: #fff;
+}
+/* last section closed here */
