@@ -1,0 +1,37 @@
+/* Helper Classes */
+.btn {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.btn-sm {
+  padding: 4px 10px;
+}
+.btn-md {
+  padding: 8px 14px;
+}
+.btn-primary {
+  color: #fff;
+  border-color: red;
+  background-color: red;
+}
+.btn-primary:hover {
+  border-color: blue;
+  background-color: blue;
+}
+.btn-primary:focus {
+  outline: none;
+  border-color: yellow;
+  background-color: yellow;
+}
+.btn-secondary {
+  outline: none;
+  background-color: blue;
+  color: #fff;
+}
+.btn-secondary:hover {
+  color: #333;
+  background: transparent;
+}
+/* Helper Classes end */
