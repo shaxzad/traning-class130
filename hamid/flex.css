@@ -1,0 +1,417 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+.btn {
+    border: 2px solid;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* helper sec-one starts */
+.sec-one .container {
+  
+}
+.sec-one .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* helper sec-one ends */
+/* sec-one starts */
+.sec-one {
+    background-image: url(./unplash/bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.sec-one .container .box {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.sec-one .inverse-btn {
+    width: 140px; 
+    height: 35px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.sec-one .ib {
+    align-items: center;
+    padding: 8px 5px 16px 5px;
+    border-radius: 30px;
+    outline: none;
+}
+.sec-one .inverse-btn:hover {
+    background: tomato;
+    border-radius: 30px;
+    outline: none;
+}
+.sec-one .inverse-btn:focus {
+    background: chocolate;
+    outline: none;
+}
+.sec-one .icon {
+    padding: 20px;
+}
+.sec-one .header {
+    color: white;
+    padding: 0px 0 0 85px;
+    font-size: 2rem;
+    margin-top: -35px;
+}
+.sec-one .welcome {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+}
+.sec-one .welcome h1 {
+    font-size: 40px;
+}
+.sec-one .welcome h1::after {
+    content: "Karen Lee.";
+    color: rgba(245, 245, 245, 0.103);
+}
+.sec-one .navbar {
+    padding: 15px;
+    padding-right: 13%;
+}
+.sec-one .navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.sec-one .navbar a:hover {
+    background-color: rgb(131, 93, 37);
+    border-radius: 7px;
+    outline: none;
+}
+.sec-one .navbar a:focus{
+    background-color: burlywood;
+    border-radius: 5px;
+    outline: none;
+}
+/* sec-one ends */
+/* helper sec-two starts */
+.sec-two .container {
+    padding: 5% 0 5% 0;
+}
+.sec-two .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* helper sec-two ends */
+/* sec-two starts */
+.sec-two .container .box {
+    width: 500px;
+    box-shadow: 3px 2px 5px 6px red;
+}
+.sec-two .container .bb {
+    padding: 5%;
+}
+.sec-two .container .box img {
+    height: 350px;
+    width: 498px;
+}
+.sec-two .container .icon {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+/* sec-two ends */
+/* helper sec-three starts */
+.sec-three .container {
+    padding: 6% 0 5% 3%; 
+}
+.sec-three .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* helper sec-three ends */
+/* sec-three starts */
+.sec-three {
+    background: #efe8e8;
+}
+.sec-three .container .row .box {
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 2% 1% 2% 1%;
+    text-align: center;
+}
+.sec-three .service {
+    text-align: center;
+}
+.sec-three .container .row .box i {
+    text-align: center;
+}
+.sec-three .container .row .box hr {
+    width: 50px;
+    border: 1px solid red;
+}
+.sec-three  .service {
+    text-align: center;
+    padding: 5% 0 0 2%;
+}
+/* sec-three ends */
+/* helper sec-four starts */
+.sec-four .container {
+    padding: 5% 0 5% 0;
+}
+.sec-four .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* helper sec-four ends */
+/* sec-four starts */
+.sec-four .container .row .box {
+width: 100%;
+display: inherit;
+justify-content: center;
+}
+.sec-four .container .row .primary-btn {
+    background: rgb(231, 19, 82);
+    width: 60px;
+    height: 30px;
+}
+.sec-four .container h1 {
+    text-align: center;
+}
+.sec-four .container .primary-btn {
+    background: rgb(231, 19, 82);
+    width: 60px;
+    height: 30px;
+}
+.sec-four .container .pb {
+    border-radius: 12px;
+    color: white;
+    /* margin: 0% 0 0 48%; */
+    outline: none;
+}
+.sec-four.container .primary-btn:hover {
+    background: yellow;
+    color: black;
+}
+.sec-four .container .primary-btn:focus {
+    background-color: brown;
+}
+/* sec-four ends */
+/* helper sec-five starts */
+.sec-five .container { 
+    padding: 5% 0 5% 0
+}
+.sec-five .container .row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+/* helper sec-five ends */
+/* sec-five starts */
+.sec-five {
+    background: #efe8e8;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.sec-five .container .img {
+    width: 69px;
+    height: 69px;
+    border: solid;
+    border-radius: 39px;
+}
+/* sec-five ends */
+/* helper sec-six starts */
+.sec-six .container {
+
+}
+.sec-six .container .row {
+    display: flex;
+    justify-content: center;
+}
+/* helper sec-six ends */
+/* sec-six starts */
+.sec-six .header {
+    text-align: center;
+    padding: 5% 0 3% 0;
+}
+.sec-six .container .row .box {
+    /* width: 150px; */
+    text-align: center;
+}
+.sec-six .container .row .box:hover {
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+}
+.sec-six .container .row .box:focus {
+    background: rgb(53, 29, 33);
+    outline: none;
+    border-radius: 8px;
+    color: white;
+}
+/* sec-six ends */
+/* helper sec-seven starts */
+.sec-seven .container {  
+    padding: 1% 7% 5% 7%;
+}
+.sec-seven .container .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+/* helper sec-seven ends */
+/* sec-seven starts */
+.sec-seven .container .row .box {
+    margin-bottom: 1%;
+}
+.sec-seven .container .row img {
+    width: 377px;
+    height: 200px;
+}
+/* sec-seven ends */
+/* helper sec-eight starts */
+.sec-eight .container { 
+    padding: 1% 7% 5% 7%;
+}
+.sec-eight .container .row {
+    display: flex;
+    flex-flow: row wrap;
+}
+/* helper sec-eight ends */
+/* sec-eight starts */
+.sec-eight {
+    background-color: #efe8e8;;
+}
+.sec-eight header {
+    text-align: center;
+    padding: 5% 0 3% 0;
+}
+.sec-eight .container .row img {
+    width: 367px;
+    height: 175px;;
+}
+.sec-eight .container .row .box {
+    background: white;
+    padding: 6px;
+}
+.sec-eight .container .rowh4 {
+    text-transform: capitalize;
+}
+.sec-eight .container .row h6:after {
+    content: " By Lee";
+    color: coral;
+}
+/* sec-eight ends */
+/* helper sec-nine starts */
+.sec-nine .container {
+    padding: 0 0 5% 0;
+}
+.sec-nine .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+/* helper sec-nine ends */
+/* sec-nine starts*/
+.sec-nine header {
+    text-align: center;
+    padding: 5% 0 3% 0;
+}
+.sec-nine .container .row .box {
+    text-align: center;
+}
+.sec-nine .container .row i {
+    color: red;    
+  
+}
+/* sec-nine ends */
+/* helper sec-ten starts */
+.sec-ten .container {
+   padding:  5% 8% 5% 8%;
+}
+.sec-ten .container .row {
+    display: flex;
+}
+/* helper sec-ten ends */
+/* sec-ten starts */
+.sec-ten .container .row .form {
+    width: 100%;
+    margin: auto;
+}
+.sec-ten .container .row .form input  {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    outline: none;
+}
+.sec-ten .container .row .form textarea {
+    border: 1px solid;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+}
+.sec-ten .container .row .form .secondary-btn {
+    background-color: green;
+    width: 60px;
+}
+.sec-ten .container .row .sb {
+    float: right;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: -30px;
+    outline: none;
+}
+.sec-ten .container .row .form .secondary-btn:hover {
+    background-color: chocolate;  
+}
+.sec-ten .container .row .form .secondary-btn:focus {
+    background-color: coral;
+}
+.sec-ten .container .row .p-r {
+    position: relative;
+}
+.sec-ten .container .row .left {
+    float: left;
+    width: 47%;
+}
+.sec-ten .container .row .right {
+    float: right;
+    width: 47%;
+}
+.sec-ten .container .row .icon {
+    position: absolute;
+    top: 18%;
+    right: -4%;
+}
+/* sec-ten ends */
+/* helper sec-eleven starts */
+
+/* helper sec-eleven ends */
+/* sec-eleven starts */
+.sec-eleven footer {
+    background: rgb(41, 36, 36);
+    color: rgb(238, 234, 234);
+    text-align: center;
+    padding: 60px;
+}
+.sec-eleven .icon {
+    border: 1px solid black;
+    background: #736868;
+    border-radius: 20px;
+    padding: 7px;
+}
+/* sec-eleven ends */
