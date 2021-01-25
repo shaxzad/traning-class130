@@ -1,0 +1,11 @@
+.sec-one {
+    background-image: url(./unplash/bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.sec-one .welcome h1::after {
+    content: "Karen Lee.";
+    color: rgba(245, 245, 245, 0.103);
+}
