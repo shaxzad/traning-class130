@@ -9,3 +9,7 @@
     content: "Karen Lee.";
     color: rgba(245, 245, 245, 0.103);
 }
+.sec-three .container-fluid hr {
+    width: 50px;
+    border: 1px solid red;
+}
